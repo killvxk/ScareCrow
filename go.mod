@@ -1,11 +1,15 @@
 module ScareCrow
 
-go 1.14
+go 1.17
 
 require (
-	github.com/akavel/rsrc v0.9.0 // indirect
-	github.com/fatih/color v1.9.0
-	github.com/josephspurrier/goversioninfo v0.0.0-20200309025242-14b0ab84c6ca
-	github.com/minio/c2goasm v0.0.0-20190812172519-36a3d3bbc4f3 // indirect
-	golang.org/x/sys v0.0.0-20200625212154-ddb9806d33ae
+	github.com/fatih/color v1.13.0
+	github.com/josephspurrier/goversioninfo v1.4.0
+)
+
+require (
+	github.com/akavel/rsrc v0.10.2 // indirect
+	github.com/mattn/go-colorable v0.1.12 // indirect
+	github.com/mattn/go-isatty v0.0.14 // indirect
+	golang.org/x/sys v0.0.0-20220412015802-83041a38b14a // indirect
 )
